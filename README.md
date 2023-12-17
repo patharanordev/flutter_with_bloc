@@ -1,16 +1,44 @@
-# poc_bloc
+# **Flutter with BLoc**
 
-A new Flutter project.
+Show the best practice for implementing:
 
-## Getting Started
+- Flutter with Business Logic Component or `BLoc`.
+- Feature scalability.
 
-This project is a starting point for a Flutter application.
+## **Project structure**
 
-A few resources to get you started if this is your first Flutter project:
+### Feature driven directory structure
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The directory based on Flutter's layer.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```text
+│
+├───...
+│
+├───lib
+│   └───src
+│       ├───features
+│       │   ├───counter
+│       │   │   ├───application
+│       │   │   ├───data
+│       │   │   ├───domain
+│       │   │   └───presentation
+│       │   ├───gallery
+│       │   │   ├───application
+│       │   │   ├───data
+│       │   │   ├───domain
+│       │   │   └───presentation
+│       │   ├───post
+│       │   │   ├───application
+│       │   │   ├───data
+│       │   │   │   └───repository
+│       │   │   ├───domain
+│       │   │   └───presentation
+│       │   └───timer
+│       │       ├───application
+│       │       ├───data
+│       │       ├───domain
+│       │       └───presentation
+│       └─── ...
+└─── ...
+```
