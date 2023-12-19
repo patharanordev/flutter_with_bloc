@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:poc_bloc/src/bloc/post/post_bloc.dart';
-import 'package:poc_bloc/src/features/post/presentation/post_bottom_loader.dart';
-import 'package:poc_bloc/src/features/post/presentation/post_list_item.dart';
+import 'package:flutter_with_bloc/src/bloc/post/post_bloc.dart';
+import 'package:flutter_with_bloc/src/features/post/presentation/post_bottom_loader.dart';
+import 'package:flutter_with_bloc/src/features/post/presentation/post_list_item.dart';
 
 class PostInfiniteList extends StatefulWidget {
   const PostInfiniteList({super.key});

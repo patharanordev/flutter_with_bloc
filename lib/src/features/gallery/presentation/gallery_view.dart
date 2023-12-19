@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:poc_bloc/src/bloc/router/router_bloc.dart';
-import 'package:poc_bloc/src/bloc/router/router_event.dart';
-import 'package:poc_bloc/src/bloc/router/router_state.dart';
+import 'package:flutter_with_bloc/src/bloc/router/router_bloc.dart';
+import 'package:flutter_with_bloc/src/bloc/router/router_event.dart';
+import 'package:flutter_with_bloc/src/bloc/router/router_state.dart';
 
-import 'feature_gallery_button.dart';
+import 'gallery_button.dart';
 
-class FeatureGalleryView extends StatelessWidget {
-  const FeatureGalleryView({super.key});
+class GalleryView extends StatelessWidget {
+  const GalleryView({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -39,13 +39,13 @@ class FeatureGalleryView extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: <Widget>[
-                      FeatureGalleryButton(
+                      GalleryButton(
                           title: 'See counter',
                           routeEvent: NavigateToCounterPageEvent()),
-                      FeatureGalleryButton(
+                      GalleryButton(
                           title: 'See timer',
                           routeEvent: NavigateToTimerPageEvent()),
-                      FeatureGalleryButton(
+                      GalleryButton(
                           title: 'See infinite list',
                           routeEvent: NavigateToInfiniteListPageEvent()),
                     ]),

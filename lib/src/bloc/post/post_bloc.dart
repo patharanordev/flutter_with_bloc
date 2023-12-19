@@ -2,11 +2,11 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:poc_bloc/src/features/post/data/post_repository.dart';
+import 'package:flutter_with_bloc/src/features/post/data/post_repository.dart';
 import 'package:stream_transform/stream_transform.dart';
 import 'package:bloc_concurrency/bloc_concurrency.dart';
 
-import 'package:poc_bloc/src/features/post/domain/post.dart';
+import 'package:flutter_with_bloc/src/features/post/domain/post.dart';
 
 part 'post_event.dart';
 part 'post_state.dart';

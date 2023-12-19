@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:poc_bloc/src/bloc/router/router_bloc.dart';
-import 'package:poc_bloc/src/bloc/router/router_event.dart';
+import 'package:flutter_with_bloc/src/bloc/router/router_bloc.dart';
+import 'package:flutter_with_bloc/src/bloc/router/router_event.dart';
 
-class FeatureGalleryButton extends StatelessWidget {
-  const FeatureGalleryButton(
+class GalleryButton extends StatelessWidget {
+  const GalleryButton(
       {super.key, required this.title, required this.routeEvent});
 
   final String title;

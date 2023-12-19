@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:poc_bloc/src/features/timer/presentation/timer_page.dart';
+import 'package:flutter_with_bloc/src/features/timer/presentation/timer_page.dart';
 
 class TimerApp extends StatelessWidget {
   const TimerApp({super.key});

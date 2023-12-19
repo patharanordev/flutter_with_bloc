@@ -7,8 +7,8 @@
 
 import 'package:flutter_test/flutter_test.dart';
 import 'package:bloc_test/bloc_test.dart';
-import 'package:poc_bloc/src/bloc/counter/counter_event.dart';
-import 'package:poc_bloc/src/bloc/counter/counter_state.dart';
+import 'package:flutter_with_bloc/src/bloc/counter/counter_event.dart';
+import 'package:flutter_with_bloc/src/bloc/counter/counter_state.dart';
 
 void main() {
   group('Counter', () {

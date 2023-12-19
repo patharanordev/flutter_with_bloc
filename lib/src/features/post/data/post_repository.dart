@@ -1,5 +1,5 @@
-import 'package:poc_bloc/src/features/post/data/repository/http_post_repository.dart';
-import 'package:poc_bloc/src/features/post/domain/post.dart';
+import 'package:flutter_with_bloc/src/features/post/data/repository/http_post_repository.dart';
+import 'package:flutter_with_bloc/src/features/post/domain/post.dart';
 
 abstract class PostBaseRepository {
   Future<List<Post>> getPosts([int startIndex = 0, int postLimit = 20]);

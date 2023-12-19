@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'dart:convert';
 
-import 'package:poc_bloc/src/features/post/data/post_repository.dart';
-import 'package:poc_bloc/src/features/post/domain/post.dart';
+import 'package:flutter_with_bloc/src/features/post/data/post_repository.dart';
+import 'package:flutter_with_bloc/src/features/post/domain/post.dart';
 import 'package:http/http.dart' as http;
 
 class HttpPostRepository implements PostBaseRepository {

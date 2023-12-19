@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:poc_bloc/src/features/timer/presentation/timer_actions.dart';
-import 'package:poc_bloc/src/features/timer/presentation/timer_text.dart';
-import 'package:poc_bloc/src/features/timer/presentation/timer_view_background.dart';
+import 'package:flutter_with_bloc/src/features/timer/presentation/timer_actions.dart';
+import 'package:flutter_with_bloc/src/features/timer/presentation/timer_text.dart';
+import 'package:flutter_with_bloc/src/features/timer/presentation/timer_view_background.dart';
 
 class TimerView extends StatelessWidget {
   const TimerView({super.key});

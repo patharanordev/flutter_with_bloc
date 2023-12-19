@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:poc_bloc/src/bloc/timer/timer_bloc.dart';
+import 'package:flutter_with_bloc/src/bloc/timer/timer_bloc.dart';
 
 class TimerText extends StatelessWidget {
   const TimerText({super.key});

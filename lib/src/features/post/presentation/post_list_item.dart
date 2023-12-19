@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:poc_bloc/src/features/post/domain/post.dart';
+import 'package:flutter_with_bloc/src/features/post/domain/post.dart';
 
 class PostListItem extends StatelessWidget {
   const PostListItem({required this.post, super.key});

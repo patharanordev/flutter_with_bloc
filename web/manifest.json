@@ -1,6 +1,6 @@
 {
-    "name": "poc_bloc",
-    "short_name": "poc_bloc",
+    "name": "flutter_with_bloc",
+    "short_name": "flutter_with_bloc",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
