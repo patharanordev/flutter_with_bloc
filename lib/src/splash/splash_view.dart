@@ -43,7 +43,7 @@ class SplashViewState extends State<SplashView> with TickerProviderStateMixin {
             );
           } else {
             if (_deviceDirtyCause.isNotEmpty) {
-              return GalleryWarningDialog(cause: _deviceDirtyCause);
+              return GalleryWarningDialog(cause: _deviceDirtyCause, labelOnAcceptButton: 'Exit App', isExitApp: true);
             } else {
               // After the delay, navigate to the desired screen
               return const GalleryPage();
