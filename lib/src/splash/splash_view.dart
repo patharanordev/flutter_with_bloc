@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_with_bloc/src/features/gallery/domain/device_dirty_cause.dart';
-import 'package:flutter_with_bloc/src/features/gallery/presentation/gallery_page.dart';
+import 'package:flutter_with_bloc/src/features/gallery/application/gallery_app.dart';
 import 'package:flutter_with_bloc/src/features/gallery/presentation/gallery_warning_dialog.dart';
 import 'package:flutter_with_bloc/src/utils/validate/device.dart';
 import 'package:lottie/lottie.dart';
@@ -43,10 +43,13 @@ class SplashViewState extends State<SplashView> with TickerProviderStateMixin {
             );
           } else {
             if (_deviceDirtyCause.isNotEmpty) {
-              return GalleryWarningDialog(cause: _deviceDirtyCause, labelOnAcceptButton: 'Exit App', isExitApp: true);
+              return GalleryWarningDialog(
+                  cause: _deviceDirtyCause,
+                  labelOnAcceptButton: 'Exit App',
+                  isExitApp: true);
             } else {
               // After the delay, navigate to the desired screen
-              return const GalleryPage();
+              return const FeatureGalleryApp();
             }
           }
         });
